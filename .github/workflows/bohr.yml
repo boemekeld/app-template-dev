@@ -9,4 +9,5 @@ jobs:
     steps:
       - uses: bohr-io/action@main
         with:
+          token: ${{ github.token }}
           cli-version: 'dev'
